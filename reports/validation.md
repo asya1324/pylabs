@@ -16,7 +16,7 @@
 | Wheel build | `task_manager-1.0.0-py3-none-any.whl` створено |
 | Source distribution build | `task_manager-1.0.0.tar.gz` створено; перевірена наявність migrations, tests, data та reports |
 | Чисте virtualenv | Wheel встановлено через `pip install --no-deps`; перевірено імпорт пакета, metadata version та вбудований `config.yaml` |
-| Git | П'ять логічних комітів; робоче дерево чисте |
+| Git | Шість логічних комітів; робоче дерево чисте |
 
 ## Що не вдалося виконати в цьому середовищі
 

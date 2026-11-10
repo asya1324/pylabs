@@ -38,7 +38,8 @@ task-manager/
 ├── output/
 ├── reports/
 │   ├── lab09_experiment_notes.md
-│   └── lab09_performance_report.json
+│   ├── lab09_performance_report.json
+│   └── validation.md
 ├── src/task_manager/
 │   ├── analytics.py
 │   ├── api.py
