@@ -1,0 +1,6 @@
+task_id,title,description,priority,status,assigned_to,deadline
+1,Prepare API documentation,Document endpoints and request examples,high,in_progress,1,2027-01-15
+2,Fix login defect,Investigate password reset validation,critical,todo,2,2026-10-20
+3,Write unit tests,Cover service and repository layers,medium,completed,1,2026-10-10
+4,Review pull request,Check database transaction handling,high,todo,,2026-12-01
+5,Plan next release,Prepare milestone and work breakdown,low,cancelled,2,

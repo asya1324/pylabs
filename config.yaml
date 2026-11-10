@@ -1,0 +1,12 @@
+# Allowed domain values for CSV import and task validation.
+allowed_priorities:
+  - low
+  - medium
+  - high
+  - critical
+allowed_statuses:
+  - todo
+  - in_progress
+  - completed
+  - cancelled
+# A completed task is not considered overdue.

@@ -1,0 +1,8 @@
+include README.md LICENSE pyproject.toml alembic.ini Dockerfile docker-compose.yml
+include .dockerignore .gitignore .env.example config.yaml
+recursive-include src/task_manager *.py *.yaml
+recursive-include migrations *.py *.mako
+recursive-include tests *.py
+recursive-include data *.csv
+recursive-include .github *.yml
+recursive-include reports *.json *.md

@@ -1,0 +1,6 @@
+task_id,title,description,priority,status
+1,Valid task,Valid record,high,todo
+2,,Missing title,medium,todo
+3,Unknown priority,Check config,urgent,todo
+4,Unknown status,Check status,low,waiting
+not-an-id,Bad ID,Malformed record,low,todo
