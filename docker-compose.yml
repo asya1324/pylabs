@@ -1,0 +1,16 @@
+services:
+  task-manager:
+    build: .
+    image: task-manager:1.0.0
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: sqlite:///./data/task_manager.db
+      DATABASE_AUTO_CREATE: "true"
+    volumes:
+      - task-manager-data:/app/data
+
+volumes:
+  task-manager-data:
