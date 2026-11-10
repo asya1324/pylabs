@@ -31,6 +31,7 @@ task-manager/
 ├── logs/
 ├── migrations/
 │   ├── env.py
+│   ├── script.py.mako
 │   └── versions/
 │       ├── 0001_initial.py
 │       └── 0002_add_deadline.py
@@ -206,7 +207,7 @@ ruff format --check src tests
 mypy src/task_manager
 ```
 
-Тести покривають domain objects, priority/status validation, status transitions, CRUD, фільтрацію, пошук, completed/incomplete, overdue, strict/tolerant CSV import, malformed records, JSON export, configuration, atomic write, repositories, DB-API rollback, API workflow, Mock/AsyncMock та генерацію профілювального набору.
+Тести покривають domain objects, priority/status validation, status transitions, CRUD, фільтрацію, пошук, completed/incomplete, overdue, strict/tolerant CSV import, malformed records, JSON export, configuration, atomic write, repositories, DB-API rollback, API workflow, Mock/AsyncMock та генерацію профілювального набору. Під час фінальної перевірки: **40 passed**, branch coverage **86,81%**; перевірені команди та локальні обмеження задокументовані у `reports/validation.md`.
 
 ## 9. Профілювання та оптимізація (ЛР9)
 
